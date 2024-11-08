@@ -1,0 +1,9 @@
+penjelasan latihan : 1
+Penjelasan alur algoritma program
+
+Import Modul random: o Baris pertama import random digunakan untuk mengimpor modul random yang menyediakan berbagai fungsi untuk menghasilkan bilangan acak.
+Meminta Input Pengguna: o Program meminta pengguna untuk memasukkan nilai n, yang merupakan jumlah bilangan acak yang ingin dihasilkan. Nilai n ini akan digunakan sebagai batas atas dalam perulangan.
+Perulangan untuk Menghasilkan Bilangan Acak: o Menggunakan for i in range(1, n+1):, program melakukan perulangan sebanyak n kali. Dalam setiap iterasi:
+ random.uniform(1, 5) digunakan untuk menghasilkan bilangan acak dengan titik desimal (float) antara 1 (inklusif) dan 5 (inklusif).  Bilangan acak yang dihasilkan disimpan dalam variabel bilangan_acak.
+Menampilkan Hasil: o Setiap bilangan acak yang dihasilkan akan ditampilkan bersama dengan nomor urutannya menggunakan format f"data ke: {i} => {bilangan_acak}". o Setelah semua bilangan acak dihasilkan dan ditampilkan, program akan mencetak pesan "Selesai" untuk mengindikasikan bahwa proses telah selesai. Penjelasan Fungsi random.uniform(a, b): • Fungsi ini menghasilkan bilangan acak dengan distribusi seragam (uniform) dalam rentang antara a (inklusif) dan b (inklusif). 
+• Dalam contoh ini, a adalah 1 dan b adalah 5, sehingga bilangan acak yang dihasilkan akan berada di antara 1.0 dan 5.0
